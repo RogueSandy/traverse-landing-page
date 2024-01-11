@@ -1,7 +1,7 @@
 # Traverse Landing Page
 The travel agency landing page created using vite react app.
 
-## Deemo Link
+## Demo Link
 https://traverselandingpage.netlify.app/
 
 ## Features
