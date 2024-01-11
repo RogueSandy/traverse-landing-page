@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+@layer utilities {
+    .perspective{
+        perspective: 100px;
+    }
+
+    .preserve-3d{
+        transform-style: preserve-3d;
+    }
+
+    .distance-1{
+        transform: translateZ(-100px) scale(2);
+    }
+
+    .distance-2{
+        transform: translateZ(-50px) scale(1.5);
+    }
+}
